@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lasy-load</title>
+	<style>
+		* {
+			box-sizing: box;
+		}
+		ul,li {
+			list-style: none;
+		}
+		ul {
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+			width: 400px;
+		}
+		li {
+			display: inline-block;
+			width: 150px;
+			height: 120px;
+			/*padding: 30px;*/
+			margin: 10px;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<ul class="container">
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		<li><a href="#"><img src="" data-src="http://inews.gtimg.com/newsapp_ls/0/531730377_150120/0" alt=""></a></li>
+		
+	</ul>
+
+	<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+	<script>
+		lasyLoad()
+		var lock
+		$(window).on('scroll',function(){
+			if(lock){
+				clearTimeout(lock)
+			}
+			lock = setTimeout(function(){
+				lasyLoad()
+			},300)
+		})
+		// 
+		function lasyLoad(){
+			$('.container img').each(function(){
+				if(isVisible($(this)) && !isLoad($(this))){
+					// 在窗口可视范围且未加载，执行加载
+					loadImg($(this))
+				}
+			})
+		}
+		// 判断一个元素是否出现在窗口可视范围,在窗口可视范围返回
+		function isVisible($node){
+			var scrollTop = $(window).scrollTop()
+			var windowHeight = $(window).height()
+			var offsetTop = $node.offset().top
+			if((offsetTop > scrollTop || offsetTop === scrollTop) && (offsetTop < (scrollTop + windowHeight))){
+				// 在窗口可视范围返回true
+				if($node.attr('src') != $node.attr('data-src')){
+					console.log('ture')
+				}
+				return true
+			}else{
+				// 不在窗口可视范围返回false
+				return false
+			}
+		}
+		// 判断是否加载过
+		function isLoad($node){
+			return $node.attr('src') === $node.attr('data-src')
+		}
+		// 加载图片
+		function loadImg($node){
+			$node.attr('src', $node.attr('data-src'))
+		}
+	</script>
+</body>
+</html>
